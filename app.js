@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   // success:
-  res.send(     'Works on my machine.');
+  res.send('Works on my machine.');
 
   // failure:
   // res.send('Hello world');
