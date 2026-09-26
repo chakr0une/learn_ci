@@ -3,7 +3,6 @@ const app = express();
 
 app.get('/', (req, res) => {
   // success:
-  let ver = req.params.ver;
   res.send('Works on my machine.');
 
   // failure:
